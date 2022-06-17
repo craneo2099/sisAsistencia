@@ -1,0 +1,8 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=127.0.0.1;port=3306;dbname=koinobor_webe578;charset=utf8mb4'
+      username: root
+      password: "entrarleya"
+      attributes: { export: tables }
